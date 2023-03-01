@@ -1,0 +1,12 @@
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title_section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
