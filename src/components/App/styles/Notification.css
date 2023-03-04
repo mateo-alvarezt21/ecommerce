@@ -4,10 +4,11 @@
     padding: 5px 10px;
     width: max-content;
     border-radius: 5px;
-    position: absolute;
+    position: fixed;
     right: -100%;
     opacity: 0;
     transition: right 300ms ease, opacity 600ms ease;
+    z-index: 3;
 }
 
 .notification.active{
